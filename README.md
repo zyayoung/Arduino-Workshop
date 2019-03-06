@@ -2,20 +2,20 @@
 
 ## Outline
 
-- Foundations
-  - Arduino (A/D, PWM, 1/0口)
-  - Arduino IDE (prepared)
+- [Foundations](#foundations-%E5%9F%BA%E7%A1%80)
+  - [Arduino (A/D, PWM)](#arduino)
+  - [Arduino IDE (prepared)](#arduino-ide)
   - Serial (output HW)
   - 供电 (input, 充电宝供电)
-- Components
-  - LED & Breadboard & resistance
+- [Components](#components-%E7%BB%84%E4%BB%B6)
+  - [LED & Breadboard & resistance](#led--resistance-led%E5%92%8C%E7%94%B5%E9%98%BB)
   - Servo
   - DC Motor (L298N)
-- Remote Control
+- [Remote Control](#remote-control-%E8%BF%9C%E7%A8%8B%E6%8E%A7%E5%88%B6)
   - PS2
   - 航模遥控
   - 蓝牙
-- EEPROM
+- [EEPROM](#eeprom)
 
 ## Foundations 基础
 
