@@ -77,9 +77,11 @@ From: [https://www.arduino.cc](https://www.arduino.cc)
 
 打开例程
 
-![BoardType_UNO](https://www.arduino.cc/en/uploads/Guide/UNO_BoardType.jpg)
+![Code](https://www.arduino.cc/en/uploads/Guide/UNO_Load_Blink.jpg)
 
 选择版型和端口
+
+![BoardType_UNO](https://www.arduino.cc/en/uploads/Guide/UNO_BoardType.jpg)
 
 ![Port](https://www.arduino.cc/en/uploads/Guide/UNO_Port.jpg)
 
