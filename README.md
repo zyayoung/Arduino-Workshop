@@ -76,11 +76,12 @@ From: [https://www.arduino.cc](https://www.arduino.cc)
 
 ### Arduino IDE
 
-#### 如何配置 Arduino 开发环境？
+#### How to configure an Arduino development environment? 如何配置 Arduino 开发环境？
 
 [Downlaod](https://www.arduino.cc/en/Main/Software)
 
 *Windows users please use Installer to ensure the driver can be installed correctly
+
 *Windows 用户请使用 Installer 以保证驱动正常安装
 
 #### Introduction of usage 使用简介
