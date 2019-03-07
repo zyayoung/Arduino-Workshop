@@ -2,20 +2,20 @@
 
 ## Outline
 
-- Foundations
-  - Arduino (Analog/Digital, PWM, 1/0 port)
-  - Arduino IDE (prepared)
+- [Foundations](#foundations-%E5%9F%BA%E7%A1%80)
+  - [Arduino (A/D, PWM)](#arduino)
+  - [Arduino IDE (prepared)](#arduino-ide)
   - Serial (output HW)
   - Power supply (input, supply by portable charger)
-- Components
-  - LED & Breadboard & resistance
+- [Components](#components-%E7%BB%84%E4%BB%B6)
+  - [LED & Breadboard & resistance](#led--resistance-led%E5%92%8C%E7%94%B5%E9%98%BB)
   - Servo
   - DC Motor (L298N)
-- Remote Control
+- [Remote Control](#remote-control-%E8%BF%9C%E7%A8%8B%E6%8E%A7%E5%88%B6)
   - PS2
   - model remote control
   - bluetooth
-- EEPROM
+- [EEPROM](#eeprom)
 
 ## Foundations 基础
 
@@ -60,6 +60,7 @@ From: [https://www.arduino.cc](https://www.arduino.cc)
 ![Mega](https://www.arduino.cc/en/uploads/Products/Mega.jpg)
 
 #### Recommended:
+
 - [Boards](https://www.arduino.cc/en/Main/Products)
 - [Tutorial](https://www.arduino.cc/en/Tutorial/HomePage)
 - [Projects](https://create.arduino.cc/projecthub)
@@ -73,14 +74,15 @@ From: [https://www.arduino.cc](https://www.arduino.cc)
 *Windows users please use Installer to ensure the driver can be installed correctly
 *Windows用户请使用Installer以保证驱动正常安装
 
-
 #### Introduction of usage 使用简介
 
 open the sample program 打开例程
 
-![BoardType_UNO](https://www.arduino.cc/en/uploads/Guide/UNO_BoardType.jpg)
+![Code](https://www.arduino.cc/en/uploads/Guide/UNO_Load_Blink.jpg)
 
 choose board type and port 选择版型和端口
+
+![BoardType_UNO](https://www.arduino.cc/en/uploads/Guide/UNO_BoardType.jpg)
 
 ![Port](https://www.arduino.cc/en/uploads/Guide/UNO_Port.jpg)
 
