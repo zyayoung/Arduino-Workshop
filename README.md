@@ -3,18 +3,18 @@
 ## Outline
 
 - Foundations
-  - Arduino (A/D, PWM, 1/0口)
+  - Arduino (Analog/Digital, PWM, 1/0 port)
   - Arduino IDE (prepared)
   - Serial (output HW)
-  - 供电 (input, 充电宝供电)
+  - Power supply (input, supply by portable charger)
 - Components
   - LED & Breadboard & resistance
   - Servo
   - DC Motor (L298N)
 - Remote Control
   - PS2
-  - 航模遥控
-  - 蓝牙
+  - model remote control
+  - bluetooth
 - EEPROM
 
 ## Foundations 基础
@@ -25,37 +25,37 @@ From: [https://www.arduino.cc](https://www.arduino.cc)
 
 ### Arduino
 
-#### 什么是Arduino？
+#### What is Arduino? 什么是Arduino？
 
-#### 如何选购Arduino版？
+#### How to purchase an Arduino board? 如何选购Arduino版？
 
 ##### Uno
 
-- 供电强
-- 大小/接口数量适中
+- Strong power supply 供电强
+- moderate size/port quantity 大小/接口数量适中
 
 ![Uno](https://www.arduino.cc/en/uploads/Products/Uno.jpg)
 
 ##### Leonardo
 
-- USB口可模拟鼠标/键盘/手柄
+- simulate mouse/keyboard/joystick through USB port USB口可模拟鼠标/键盘/手柄
 
 ![Leonardo](https://www.arduino.cc/en/uploads/Main/ArduinoLeonardo_mpp.jpg)
 
 ##### Nano
 
-- 体积小
-- 供电弱
-- 便宜
-- 折腾
+- small size 体积小
+- weak power supply 供电弱
+- cheap 便宜
+- time consuming 折腾
 
 ![Nano](https://www.arduino.cc/en/uploads/Products/Nano.jpg)
 
 ##### Mega
 
-- 体积大
-- 接口多
-- 供电？？
+- large size 体积大
+- large port quantity 接口多
+- unknown power supply 供电？？
 
 ![Mega](https://www.arduino.cc/en/uploads/Products/Mega.jpg)
 
@@ -70,20 +70,21 @@ From: [https://www.arduino.cc](https://www.arduino.cc)
 
 [Downlaod](https://www.arduino.cc/en/Main/Software)
 
+*Windows users please use Installer to ensure the driver can be installed correctly
 *Windows用户请使用Installer以保证驱动正常安装
 
 
-#### 使用简介
+#### Introduction of usage 使用简介
 
-打开例程
+open the sample program 打开例程
 
 ![BoardType_UNO](https://www.arduino.cc/en/uploads/Guide/UNO_BoardType.jpg)
 
-选择版型和端口
+choose board type and port 选择版型和端口
 
 ![Port](https://www.arduino.cc/en/uploads/Guide/UNO_Port.jpg)
 
-编译并上传程序
+compile and upload your program 编译并上传程序
 
 ![Upload](https://www.arduino.cc/en/uploads/Guide/UNO_Upload.png)
 
@@ -97,11 +98,13 @@ From: [https://www.arduino.cc/en/Guide/ArduinoUno](https://www.arduino.cc/en/Gui
 
 ### LED & Resistance LED和电阻
 
-#### Circut
+#### Circut 电路
 
-Arduino内置LED于`LED_BUILTIN`引脚。 
+Arudino has a built-in LED on `LED_BUILTIN` port Arduino内置LED于`LED_BUILTIN`引脚。
 
-将外部LED较长的引脚（正极）接在13口，较短引脚接在GND（负极）
+connect the long pin of the outside LED with 13 port 将外部LED较长的引脚（正极）接在13口
+
+connect the short pin of the outside LED with GND port 较短引脚接在GND（负极）
 
 ![Circut](https://www.arduino.cc/en/uploads/Tutorial/ExampleCircuit_bb.png)
 
@@ -173,5 +176,7 @@ void loop() {
 ### PS2
 
 ### Radio System Transmitter 航模遥控
+
+### Bluetooth
 
 ## EEPROM
