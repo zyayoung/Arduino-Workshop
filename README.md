@@ -25,9 +25,18 @@ From: [https://www.arduino.cc](https://www.arduino.cc)
 
 ### Arduino
 
-#### What is Arduino? 什么是Arduino？
+#### What is Arduino? 什么是 Arduino？
 
-#### How to purchase an Arduino board? 如何选购Arduino版？
+#### How to purchase an Arduino board? 如何选购 Arduino 版？
+
+|              | Uno      | Nano  | Mega      |
+| ------------ | -------- | ----- | --------- |
+| Power supply | enough   | weak  | ??        |
+| Size         | moderate | small | large     |
+| Price        | moderate | low   | expensive |
+| Image        | ![Uno](https://www.arduino.cc/en/uploads/Products/Uno.jpg) | ![Nano](https://www.arduino.cc/en/uploads/Products/Nano.jpg) | ![Mega](https://www.arduino.cc/en/uploads/Products/Mega.jpg) |
+
+**\*Tip: If not necessary, please NEVER take Nano into consideration!**
 
 ##### Uno
 
@@ -38,7 +47,7 @@ From: [https://www.arduino.cc](https://www.arduino.cc)
 
 ##### Leonardo
 
-- simulate mouse/keyboard/joystick through USB port USB口可模拟鼠标/键盘/手柄
+- simulate mouse/keyboard/joystick through USB port USB 口可模拟鼠标/键盘/手柄
 
 ![Leonardo](https://www.arduino.cc/en/uploads/Main/ArduinoLeonardo_mpp.jpg)
 
@@ -67,12 +76,12 @@ From: [https://www.arduino.cc](https://www.arduino.cc)
 
 ### Arduino IDE
 
-#### 如何配置Arduino开发环境？
+#### 如何配置 Arduino 开发环境？
 
 [Downlaod](https://www.arduino.cc/en/Main/Software)
 
 *Windows users please use Installer to ensure the driver can be installed correctly
-*Windows用户请使用Installer以保证驱动正常安装
+*Windows 用户请使用 Installer 以保证驱动正常安装
 
 #### Introduction of usage 使用简介
 
@@ -98,28 +107,28 @@ From: [https://www.arduino.cc/en/Guide/ArduinoUno](https://www.arduino.cc/en/Gui
 
 ## Components 组件
 
-### LED & Resistance LED和电阻
+### LED & Resistance LED 和电阻
 
 #### Circut 电路
 
-Arudino has a built-in LED on `LED_BUILTIN` port Arduino内置LED于`LED_BUILTIN`引脚。
+Arudino has a built-in LED on `LED_BUILTIN` port Arduino 内置 LED 于`LED_BUILTIN`引脚。
 
-connect the long pin of the outside LED with 13 port 将外部LED较长的引脚（正极）接在13口
+connect the long pin of the outside LED with 13 port 将外部 LED 较长的引脚（正极）接在 13 口
 
-connect the short pin of the outside LED with GND port 较短引脚接在GND（负极）
+connect the short pin of the outside LED with GND port 较短引脚接在 GND（负极）
 
 ![Circut](https://www.arduino.cc/en/uploads/Tutorial/ExampleCircuit_bb.png)
 
 #### Code
 
 > Initialize LED_BUILTIN pin as an output pin with the line:
-> 
+>
 > `pinMode(LED_BUILTIN, OUTPUT);`
-> 
+>
 > Turn the LED on with the line:
-> 
+>
 > `digitalWrite(LED_BUILTIN, HIGH);`
-> 
+>
 > This supplies 5 volts to the LED anode.
 > That creates a voltage difference across the pins of the LED, and lights it up.
 >
