@@ -232,8 +232,6 @@ void loop() {
 
 ### PS2
 
-### Radio System Transmitter
-
 ### Bluetooth
 
 ## EEPROM
